@@ -14,5 +14,5 @@ Place in the same folder as the pngs, run with powershell.
 
 Tip: If double‑clicking doesn’t run due to execution policy, open the folder in Terminal and run:
 ```
-powershell -ExecutionPolicy Bypass -File .\Convert-PNG-to-WebP.ps1
+Unblock-File -Path ".\Convert-PNG-to-WebP.ps1"
 ```
