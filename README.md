@@ -1,3 +1,27 @@
+
+<hr />
+<details>
+<summary>Mac (PNG & JPG)</summary>
+<hr />
+
+Usage: 
+`./img2webp.sh`
+
+Usage with optional quality parameter: 
+`./img2webp.sh [QUALITY] - (quality 1-100, default: 100)`
+
+Example:
+`./img2webp.sh 80`
+
+If the script doesn’t run, update the permissions: 
+
+`chmod +x img2webp.sh`
+
+</details>
+<hr />
+<details>
+<summary>Windows (PNG)</summary>
+<hr />
 # Convert-PNG-to-WebP.ps1
 
 1) Downloads cwebp (Google WebP tools)
@@ -6,7 +30,6 @@
 
 3) Verifies every PNG has a matching WebP
 
-<hr />
 
 ## How to use:
 
@@ -16,3 +39,5 @@ Tip: If double‑clicking doesn’t run due to execution policy, open the folder
 ```
 Unblock-File -Path ".\Convert-PNG-to-WebP.ps1"
 ```
+</details>
+<hr />
