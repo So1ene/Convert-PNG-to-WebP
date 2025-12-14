@@ -4,6 +4,9 @@
 <summary>Mac (PNG & JPG)</summary>
 <hr />
 
+1. Save `img2webp.sh` and place it in the same folder as your images to convert
+2. Make sure to install `brew install webp`
+
 Usage: 
 `./img2webp.sh`
 
